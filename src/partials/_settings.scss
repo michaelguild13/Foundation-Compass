@@ -1,9 +1,11 @@
 // Grid Settings
 $grid-container-padding: 20px;
-$grid-max-width: 990px;
+$grid-max-width: 980px;
 $grid-min-width: 727px;
-$number-of-columns: 24;
+$number-of-columns: 12;
 $gutter-width: 4.4%;
+
+$support-block-grid-nth-child: false !default;
 
 // Font Settings
 $base-font-size: 10 !default;
@@ -14,10 +16,6 @@ $base-color: #666 !default;
 $experimental-support-for-khtml: false !default;
 $experimental-support-for-microsoft: false !default;
 
-// Grid settings
-$grid-max-width: 990px !default;
-$grid-min-width: 727px !default;
-$support-block-grid-nth-child: false !default;
 
 // Rounded corners
 $border-radius-size: .125em;
