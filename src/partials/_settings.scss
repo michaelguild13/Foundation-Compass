@@ -1,0 +1,49 @@
+// Base Settings
+$base-font-size: 10 !default;
+$base-line-height: 10 !default;
+$base-color: #666 !default;
+
+// Compass experimental support setttings
+$experimental-support-for-khtml: false !default;
+$experimental-support-for-microsoft: false !default;
+
+// Grid settings
+$grid-max-width: 990px !default;
+$grid-min-width: 727px !default;
+$support-block-grid-nth-child: false !default;
+
+// Rounded corners
+$border-radius-size: .125em;
+
+// Drop shadows
+$box-shadow-color: rgba(0,0,0,0.3);
+$box-shadow-horizontal-offset: 0;
+$box-shadow-vertical-offset: .0625em;
+$box-shadow-blur: .25em;
+
+// IE Support
+$legacy-support-for-ie: true;
+$legacy-support-for-ie6: $legacy-support-for-ie;
+$legacy-support-for-ie7: $legacy-support-for-ie;
+$legacy-support-for-ie8: $legacy-support-for-ie;
+@import "compass/support";
+
+// Compass Utilites
+@import "compass/typography/lists/inline-block-list";
+@import "compass/typography/vertical_rhythm";
+@import "compass/utilities/tables/borders";
+@import "compass/utilities/tables/alternating-rows-and-columns";
+@import "compass/css3";
+@import "compass/css3/text-shadow";
+
+/*
+** Foundation Module Styles
+Uncomment this out if we end up using them
+
+// Button settings
+$button-transition-duration: 0.25s !default;
+
+// Orbit settings
+$orbit-slider-id: featured !default;
+$include-default-orbit-slider-id: true !default;
+*/

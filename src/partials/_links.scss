@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  line-height: inherit;
+  
+  &:hover { }
+  &:focus { outline: none;} 
+}
+p {
+  a, a:visited { line-height: inherit; } 
+}

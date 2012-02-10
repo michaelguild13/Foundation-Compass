@@ -1,0 +1,17 @@
+/*-----------------------------------------------------------------------------
+[client]            Sprites Stylesheet
+
+version:            1.0
+date:               [date]
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+
+$common-spacing: 20px;
+$common-repeat: no-repeat;
+@import "sprites/common/*.png";
+
+$icons-spacing: 20px;
+$icons-repeat: no-repeat;
+@import "sprites/icons/*.png";

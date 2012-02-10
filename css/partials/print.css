@@ -1,0 +1,79 @@
+/*
+**	Default Colors
+*/
+/* line 9, ../../src/partials/print.scss */
+.print-only {
+  display: none !important;
+}
+
+@media print {
+  /* line 13, ../../src/partials/print.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* line 20, ../../src/partials/print.scss */
+  p a, p a:visited {
+    color: #444444 !important;
+    text-decoration: underline;
+  }
+  /* line 23, ../../src/partials/print.scss */
+  p a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 25, ../../src/partials/print.scss */
+  abbr[title]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 27, ../../src/partials/print.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 29, ../../src/partials/print.scss */
+  pre, blockquote {
+    border: solid 1px #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 32, ../../src/partials/print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 34, ../../src/partials/print.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 39, ../../src/partials/print.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 42, ../../src/partials/print.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 44, ../../src/partials/print.scss */
+  .hide-on-print {
+    display: none !important;
+  }
+
+  /* line 46, ../../src/partials/print.scss */
+  .print-only {
+    display: block !important;
+  }
+}

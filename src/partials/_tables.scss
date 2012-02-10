@@ -1,0 +1,53 @@
+table {
+  margin: 0 0 18px;
+  border: solid 1px #dddddd;
+
+  thead, tfoot {
+    background: #f5f5f5;
+    
+    tr {
+      th {
+        @include font-size(12);
+        
+        line-height: 18px;
+        text-align: left; 
+      } 
+    }
+  }
+  thead {
+    tr {
+      th {
+        @include font-size(14);
+
+        padding: 8px 10px 9px;
+        font-weight: bold;
+
+        &:first-child { border-left: none;}
+        &:last-child { border-right: none;}
+      } 
+    } 
+  }
+  tbody {
+    tr {
+      &.alt { background: #f9f9f9;}
+      &:nth-child(even) { background: #f9f9f9;}
+      td {
+        @include font-size(12);
+
+        line-height: 18px;
+        text-align: left;
+      } 
+    } 
+  }
+  tfoot {
+    tr {
+      td {
+        @include font-size(12);
+        line-height: 18px;
+        text-align: left;
+        &:last-child { border-left: none;}
+        &:last-child { border-right: none;} 
+      } 
+    } 
+  }
+}
