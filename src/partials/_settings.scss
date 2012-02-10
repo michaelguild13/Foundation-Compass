@@ -1,4 +1,11 @@
-// Base Settings
+// Grid Settings
+$grid-container-padding
+$grid-max-width: 990px;
+$grid-min-width: 727px;
+$number-of-columns: 24;
+$gutter-width: 4.4%;
+
+// Font Settings
 $base-font-size: 10 !default;
 $base-line-height: 10 !default;
 $base-color: #666 !default;
