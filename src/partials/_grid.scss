@@ -7,8 +7,18 @@
 $number-of-gutters: $number-of-columns - 1;
 $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns * 1;
 
-.container {
+#container {
   padding: 0 $grid-container-padding; }
+
+// Section wrapping
+// - Use this class for wrapping/containing
+.container {
+  $i: $container-padding;
+  padding: $i;
+  overflow-x: hidden;
+  &.left-side { padding: $i $i $i 0;}
+  &.right-side { padding: $i 0 $i $i;}
+}
 
 // To set the grid to a certain size, set max-width to width
 
@@ -22,7 +32,7 @@ $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns 
 }
 
 .column, .columns {
-  margin-left: 4.4%;
+  margin-left: $gutter-width;
   float: left;
   min-height: 1px;
   position: relative;
