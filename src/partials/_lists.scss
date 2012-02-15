@@ -1,12 +1,24 @@
-ul, ol { margin-bottom: 18px;}
+ul, ol, dl { margin: 0;}
+
 ul {
   list-style: none outside;
-
   &.square { list-style: square outside;}
   &.circle { list-style: circle outside;}
   &.disc { list-style: disc outside;} 
 }
+
 ol { list-style: decimal;}
+
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px;}
-li { margin-bottom: 12px;}
-ul.large li { line-height: 21px;}
+
+li { margin: 0;}
+
+dl {
+	margin: 0 0 1.5em 0;
+	dt {
+		font-weight: bold;
+	}
+}
+dd {
+	margin-left: 1.5em;
+}
