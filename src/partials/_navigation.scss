@@ -1,0 +1,46 @@
+// #TODO: theme out colors
+// #TODO: correct px to rem
+
+// Use this class to start a horrizontal menu
+// these styles allow you to control the pipe/bar hight
+
+.navigation {
+	ul {
+		display: table-row;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		//Turn this off so menu items can wrap
+		//white-space: nowrap; 
+
+		li {
+			float: left;
+			border-right: 1px solid grey;
+			&:last-child { border-right: none;}
+			&:hover { border-color: #ffffff;}
+			a {
+				display: block;
+				float: left; 
+				text-decoration: none;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
+
+/*
+Example:
+
+#main-menu{
+	li {
+		position: relative;
+		ul {
+			display: none;
+		}
+		&:hover ul {
+			display: block;
+		}
+	}
+}
+
+*/

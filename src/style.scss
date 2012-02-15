@@ -1,12 +1,5 @@
-// This import applies a global reset to any page that imports this stylesheet.
-@import "compass/reset";
-
-// Import Compass Support so we can use features to support different browsers.
-@import "compass/support";
-
-
-@import "compass/css3";
-@import "compass/utilities";
+// Importing all of Compass
+@import "compass";
 
 // Import Gobal Settings, Colors & Variables
 @import "partials/settings";
@@ -15,19 +8,21 @@
 // Mixins
 @import "mixins/mixins";
 
-// Partials
+// Reset
+@import "partials/reset";
 
+// Partials
+@import "partials/grid";
 @import "partials/redefine";
+@import "partials/helpers";
 @import "partials/typography";
 @import "partials/links";
 @import "partials/tables";
 @import "partials/lists";
-@import "partials/ui";
-
-@import "partials/helpers";
-
-@import "partials/grid";
 @import "partials/forms";
+@import "partials/ui";
+@import "partials/structure";
+@import "partials/navigation";
 
 // Modules (tabs, carousels, accordions, Etc)
 //@import "modules/orbit";
