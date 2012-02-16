@@ -7,11 +7,9 @@
 $number-of-gutters: $number-of-columns - 1;
 $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns * 1;
 
-#container {
-  padding: 0 $grid-container-padding; }
+#container { padding: 0 $grid-container-padding; }
 
 // Section wrapping
-// - Use this class for wrapping/containing
 .container {
   $i: $container-padding;
   padding: $i;
@@ -21,8 +19,8 @@ $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns 
 }
 
 // To set the grid to a certain size, set max-width to width
-
 .row {
+  @extend .clearfix;
   width: 100%;
   max-width: $grid-max-width;
   min-width: $grid-min-width;
@@ -46,7 +44,8 @@ $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns 
   @for $i from 1 through $number-of-columns {
     .#{convert-number-to-word($i)}.columns {
       @if $i == 1 {
-        width: $column-width * $i; }
+        width: $column-width * $i; 
+      }
       @else {
         width: $column-width * $i + $gutter-width * $i - $gutter-width; 
       } 
@@ -64,19 +63,33 @@ $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns 
   }
   
   // Source Ordering
-  
-  /* Push Ordering */
-  @for $i from 2 through $number-of-columns - 2 {
-    .push-#{convert-number-to-word($i)} {
-      left: $column-width * ($i + 1) + $gutter-width * ($i + 1) - $gutter-width + 0.1% - $gutter-width; } }
-  
-  /* Pull Ordering */
-  @for $i from 2 through $number-of-columns - 2 {
-    .pull-#{convert-number-to-word($i)} {
-      right: $column-width * ($i + 1) + $gutter-width * ($i + 1) - $gutter-width + 0.1% - $gutter-width; } }
-  
+
   /* .one.centered, .two.centered, etc. */
   @for $i from 1 through $number-of-columns {
     .#{convert-number-to-word($i)}.centered {
       width: $column-width * $i + $gutter-width * $i - $gutter-width;
-      margin: 0 auto; } } }
+      margin: 0 auto; 
+      } 
+    }
+  }
+
+  /* Push Ordering */
+  @for $i from 2 through $number-of-columns - 2 {
+    .push-#{convert-number-to-word($i)} {
+      left: $column-width * $i + $gutter-width * $i - $gutter-width; 
+      //left: $column-width * ($i + 1) + $gutter-width * ($i + 1) - $gutter-width + 0.1% - $gutter-width; 
+    } 
+  }
+  
+  /* Pull Ordering */
+  @for $i from 2 through $number-of-columns - 2 {
+    .pull-#{convert-number-to-word($i)} {
+      right: $column-width * $i + $gutter-width * $i - $gutter-width; 
+      //right: $column-width * ($i + 1) + $gutter-width * ($i + 1) - $gutter-width + 0.1% - $gutter-width; 
+    } 
+  }
+
+img, object, embed { max-width: 100%; height: auto; }
+img { -ms-interpolation-mode: bicubic; }
+
+#map_canvas img, .map_canvas img { max-width: none !important; }
