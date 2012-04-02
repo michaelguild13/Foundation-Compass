@@ -1,33 +1,62 @@
 @import "compass/css3";
 @import "compass/utilities";
 
-//Font Stack
-@mixin HelveticaFontStack {font-family: $helvetica-font-stack; }
-@mixin ff-text{ font-family: sans-serif;}
-@mixin ff-heading{ font-family: serif;}
-@mixin ff-decorative{ font-family: cursive;}
-@mixin ff-mono{ font-family: monospace;}
 
-// Font-Size inclues px and rem together
-@mixin font-size($size, $is-important: false) {
-  @if $is-important {
-    font-size: $size + px !important;
-    font-size: $size / 10 + rem !important; 
-  }
-  @else {
+// Font-Size
+@mixin font-size($size) {
     font-size: $size + px;
     font-size: $size / 10 + rem; 
-  } 
+}
+
+// Line-Height
+@mixin line-height($size) {
+    line-height: $size + px;
+    line-height: $size / 10 + rem; 
+}
+
+// Padding
+@mixin padding($top, $right, $bottom, $left){
+    @if $top{
+        padding-top: $top + px;
+        padding-top: $top / 10 + rem;
+    }
+    @if $right{
+        padding-right: $right + px;
+        padding-right: $right / 10 + rem;
+    }
+    @if $bottom{
+        padding-bottom: $bottom + px;
+        padding-bottom: $bottom / 10 + rem;
+    }
+    @if $left{
+        padding-left: $left + px;
+        padding-left: $left / 10 + rem;
+    }
+}
+
+// Margin
+@mixin margin($top, $right, $bottom, $left){
+    @if $top{
+        margin-top: $top + px;
+        margin-top: $top / 10 + rem;
+    }
+    @if $right{
+        margin-right: $right + px;
+        margin-right: $right / 10 + rem;
+    }
+    @if $bottom{
+        margin-bottom: $bottom + px;
+        margin-bottom: $bottom / 10 + rem;
+    }
+    @if $left{
+        margin-left: $left + px;
+        margin-left: $left / 10 + rem;
+    }
 }
 
 // WebKit font-smoothing
-// 
 // References:
 // 1. http://maxvoltar.com/sandbox/fontsmoothing/
 // 2. http://maxvoltar.com/archive/-webkit-font-smoothing
-//
 // Values: none, antialiased (default), subpixel-antialiased
-//
-
-@mixin font-smoothing($value: antialiased) {
-  -webkit-font-smoothing: $value; }
+@mixin font-smoothing($value: antialiased) {  -webkit-font-smoothing: $value; }

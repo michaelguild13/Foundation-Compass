@@ -1,21 +1,33 @@
 // Grid Settings
-$grid-container-padding: 20px;
-$grid-max-width: 980px;
+$grid-container-padding: 0px;
+$grid-container-margin: 0px;
+
+$grid-max-width: 990px;
 $grid-min-width: 727px;
-$number-of-columns: 12;
-$gutter-width: 4.4%;
-$container-padding: 20px;
+
+$number-of-columns: 23;
+$gutter-width: 0%;
+
+$container-padding: 2rem;
 
 $support-block-grid-nth-child: false !default;
 
 // Font Settings
-$base-font-size: 10 !default;
-$base-line-height: 10 !default;
-$base-color: #666 !default;
+$base-font-family: arial, helvetica, sans-serif;
+$base-font-size: 10px;
+$base-line-height: 10px;
+$base-color: #333333;
+
+// IE Support
+$legacy-support-for-ie: true;
+$legacy-support-for-ie6: $legacy-support-for-ie;
+$legacy-support-for-ie7: $legacy-support-for-ie;
+$legacy-support-for-ie8: $legacy-support-for-ie;
 
 // Compass experimental support setttings
-$experimental-support-for-khtml: false !default;
-$experimental-support-for-microsoft: false !default;
+$experimental-support-for-khtml: true;
+$experimental-support-for-svg: true;
+$experimental-support-for-microsoft: true;
 
 
 // Rounded corners
@@ -26,21 +38,6 @@ $box-shadow-color: rgba(0,0,0,0.3);
 $box-shadow-horizontal-offset: 0;
 $box-shadow-vertical-offset: .0625em;
 $box-shadow-blur: .25em;
-
-// IE Support
-$legacy-support-for-ie: true;
-$legacy-support-for-ie6: $legacy-support-for-ie;
-$legacy-support-for-ie7: $legacy-support-for-ie;
-$legacy-support-for-ie8: $legacy-support-for-ie;
-@import "compass/support";
-
-// Compass Utilites
-@import "compass/typography/lists/inline-block-list";
-@import "compass/typography/vertical_rhythm";
-@import "compass/utilities/tables/borders";
-@import "compass/utilities/tables/alternating-rows-and-columns";
-@import "compass/css3";
-@import "compass/css3/text-shadow";
 
 /*
 ** Foundation Module Styles

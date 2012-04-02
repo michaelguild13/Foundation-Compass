@@ -1,11 +1,4 @@
-.hidden { display: none; visibility: hidden; } 
-
-.visuallyhidden { position: absolute !important; clip: rect(1px 1px 1px 1px);  clip: rect(1px, 1px, 1px, 1px); }
-
-.invisible { visibility: hidden; }
-
 // Nicolas Gallagher's micro clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
-
 // For modern browsers
 .clearfix {
   &:before, &:after { content: ""; display: table; }
@@ -15,15 +8,22 @@
 .clearfix { zoom: 1;}
 
 // Positional Classes
+.inline { display: inline-block;}
 .left { float: left; }
 .right { float: right; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 .text-center { text-align: center; }
-.hide { display: none; }
-.highlight { }
 
-// Test classes for Testing
-// - Apply these classes to view contianers
-.red,.blue,.green,.yellow{ @include opacity(0.5); }
+// Visual Classes
+.hidden { display: none; visibility: hidden; } 
+.visuallyhidden { position: absolute !important; clip: rect(1px 1px 1px 1px);}
+.invisible { visibility: hidden; }
+
+
+// Colors for Testing
+.red,
+.blue,
+.green,
+.yellow{ @include opacity(0.5); }
 .red {background:red;}.blue {background:blue;}.green {background:green;}.yellow {background:yellow;}

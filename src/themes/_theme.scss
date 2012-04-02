@@ -1,12 +1,3 @@
-// #TODO add theme background stuff
-
 body.#{$theme-name}_theme {
-	
-	#container {
-		@include background-image(linear-gradient(#b4d7e1 10px, #a5cfdb 200px, #ffffff 500px));
-	}
 
-	.row {
-		background: white;
-	}
 }

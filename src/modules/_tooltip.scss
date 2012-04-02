@@ -1,0 +1,31 @@
+.tooltip {
+}
+.tooltip.icon{ border: none;}
+
+#tooltip-content.bt-wrapper,
+.tooltip-content{
+    h3 {
+        text-align: center;
+        @include font-size(18);
+    }
+    p {
+        margin: 0 0 8px;
+        margin: 0 0 .8rem;
+    }
+    img{
+        &.left{ 
+            outline: none;
+            padding-right: 8px;
+            margin-right: 8px;
+            padding-right: .8rem;
+            margin-right: .8rem;
+        }
+        &.right{
+            outline: none;
+            padding-left: 8px;
+            margin-left: 8px;
+            padding-left: .8rem;
+            margin-left: .8rem;
+        }
+    }
+}

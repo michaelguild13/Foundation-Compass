@@ -1,21 +1,26 @@
 // NOTE: This Sass stylesheet is dependent on the Custom Sass Function, convert-number-to-word, which is available here
 // https://gist.github.com/1439296
-
 // Arfully Masterminded by ZURB - Grid :: This is the mobile-friendly, responsive grid that lets Foundation work much of its magic.
-
 
 $number-of-gutters: $number-of-columns - 1;
 $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns * 1;
 
-#container { padding: 0 $grid-container-padding; }
+#▯NationalGeographic { 
+  padding: 0 $grid-container-padding; 
+  margin: 0;
+}
 
 // Section wrapping
 .container {
   $i: $container-padding;
-  padding: $i;
-  overflow-x: hidden;
-  &.left-side { padding: $i $i $i 0;}
-  &.right-side { padding: $i 0 $i $i;}
+  
+  margin: $i;
+  //overflow-y: hidden;
+  &.remove-top { margin-top: 0;}
+  &.remove-bottom { margin-bottom: 0;}
+  &.remove-left { margin-left: 0;}
+  &.remove-right { margin-right: 0;}
+  &.no-margin {margin:0;}
 }
 
 // To set the grid to a certain size, set max-width to width
@@ -33,6 +38,7 @@ $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns 
   margin-left: $gutter-width;
   float: left;
   min-height: 1px;
+  min-height: .1rem;
   position: relative;
 
   &:first-child { margin-left: 0; } 
@@ -89,7 +95,9 @@ $column-width: (100% - $gutter-width * $number-of-gutters) / $number-of-columns 
     } 
   }
 
-img, object, embed { max-width: 100%; height: auto; }
+img, 
+//object, 
+embed { max-width: 100%; height: auto; }
 img { -ms-interpolation-mode: bicubic; }
 
 #map_canvas img, .map_canvas img { max-width: none !important; }

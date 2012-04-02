@@ -1,0 +1,68 @@
+// #TODO: move theme stuff and clean this up
+
+.paginate {
+    position: relative;
+    h3 { 
+        margin-left: 20px;
+        margin-left: 2rem;
+    }
+    .paginate-navigation,
+    .paginate-info {
+        position: absolute;
+        height: 20px;
+        height: 2rem;
+        line-height: 20px;
+        line-height: 2rem;
+        display: inline-block;
+        @include font-size(11);
+        text-align: center;
+        font-weight: bold;  
+    }
+    .paginate-navigation {
+        width: 50%;
+        left: 20px;
+        left: 2rem;
+        .previous_link,
+        .next_link {
+            display: inline-block;
+            width: 20px;
+            width: 2rem;
+            height: 20px;
+            height: 2rem;
+            line-height: 20px;
+            line-height: 2rem;
+            text-align: center;
+        }
+        .previous_link{
+            float: left;
+        }
+        .next_link { 
+            float: right;
+        }
+        .page_link,
+        .ellipse {
+            @extend .hidden;
+        }
+    }
+    .paginate-info {
+        width: 25%;
+        left: 22.55%;
+        border-left: none;
+        border-right: none;
+    }
+    .paginate-content {
+        margin-top: 40px;
+        margin-top: $container-padding*2;
+        .block {
+            margin-top: $container-padding;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border: none;
+        }
+    }
+    &.right.columns{ 
+        margin-left: 20px;
+        margin-left: 2rem;
+    }
+        // @extend .border-left
+}

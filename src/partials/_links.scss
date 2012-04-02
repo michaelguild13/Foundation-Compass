@@ -1,8 +1,7 @@
 a {
   text-decoration: none;
   line-height: inherit;
-  
-  &:hover { }
+  &:hover { text-decoration: underline;}
   &:focus { outline: none;} 
 }
 p {
