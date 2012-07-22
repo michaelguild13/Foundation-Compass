@@ -1,3 +1,11 @@
+/*-----------------------------------------------------------------------------
+[client]            Compiled Style Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+
 // This import compass.
 @import "compass";
 
@@ -15,6 +23,7 @@
 @import "partials/grid";
 @import "partials/structure";
 @import "partials/blocks";
+@import "partials/font-face"
 @import "partials/helpers";
 @import "partials/typography";
 @import "partials/links";
@@ -26,12 +35,12 @@
 
 
 // Modules (tabs, carousels, accordions, Etc)
-@import "modules/tabs";
-@import "modules/accordions";
-@import "modules/breadcrumbs";
-@import "modules/tagcloud";
-@import "modules/tooltip";
-@import "modules/paginator";
+//@import "modules/tabs";
+//@import "modules/accordions";
+//@import "modules/breadcrumbs";
+//@import "modules/tagcloud";
+//@import "modules/tooltip";
+//@import "modules/paginator";
 
 // Media Queries
 @import "media_queries/print/print";

@@ -1,14 +1,13 @@
 /*-----------------------------------------------------------------------------
-[client]            IE8 Stylesheet
+[client]            Font-Face Stylesheet
 
 author:             Michael Guild
 email:              michaelguild13@gmail.com
 website:            http://michaelguild13.wordpress.com/
 -----------------------------------------------------------------------------*/
 
-$legacy-support-for-ie: true;
-$legacy-support-for-ie8: $legacy-support-for-ie;
-@import "compass/support";
-.ie8{
-    
-}
+@import "compass/css3";
+ 
+//@include font-face("Blooming Grove", font-files("examples/bgrove.ttf", "examples/bgrove.otf"));
+//.example {font-family: "Blooming Grove";}
+// Use http://www.fontsquirrel.com/fontface/generator to auto Generate sass

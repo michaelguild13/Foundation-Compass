@@ -1,9 +1,21 @@
+/*-----------------------------------------------------------------------------
+[client]            Compiled Themes Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+
 @import "compass";
 
-// Teachers
+// Blue Theme
+@import "themes/default";
+@import "themes/theme";
+
+// Blue Theme
 @import "themes/blue";
 @import "themes/theme";
 
-// Students
+// Green Theme
 @import "themes/green";
 @import "themes/theme";
