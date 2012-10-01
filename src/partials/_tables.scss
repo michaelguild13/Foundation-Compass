@@ -7,31 +7,15 @@ website:            http://michaelguild13.wordpress.com/
 -----------------------------------------------------------------------------*/
 
 table {
-  margin: 20px 0;
-  margin: $container-padding 0;
-  border: none;
-  @include font-size(11);
-  p {@include font-size(11);}
-  text-align: left;
-  vertical-align: bottom;
-
   thead, tfoot {
-    font-weight: bold;
-
     tr {
       th {
-        white-space: nowrap;
-        cursor: pointer;
-        padding: 20px 5px 5px 5px;
-        padding: $container-padding .5rem .5rem .5rem;
       } 
     }
   }
   tbody {
     tr {
       td {
-        padding: 5px;
-        padding: .5rem;
       } 
     } 
   }

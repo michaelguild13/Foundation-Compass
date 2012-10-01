@@ -1,0 +1,2544 @@
+/*-----------------------------------------------------------------------------
+[client]            Compiled Style Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Sprites Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 146, icons/*.png */
+.icons-sprite, .icons-add, .icons-connectWithUs, .icons-email, .icons-fullscreen, .icons-new-window, .icons-newsletter, .icons-print, .icons-readOurBlog, .icons-remove, .icons-search, .icons-share, .icons-subtract, .icons-time, .icons-tooltip {
+  background: url('../images/icons-sc877ba15e1.png') no-repeat;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-add {
+  background-position: 0 -1446px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-connectWithUs {
+  background-position: 0 -268px;
+  height: 34px;
+  width: 34px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-email {
+  background-position: 0 -877px;
+  height: 11px;
+  width: 16px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fullscreen {
+  background-position: 0 -1103px;
+  height: 16px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-new-window {
+  background-position: 0 -1219px;
+  height: 16px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-newsletter {
+  background-position: 0 -134px;
+  height: 34px;
+  width: 34px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-print {
+  background-position: 0 -639px;
+  height: 14px;
+  width: 16px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-readOurBlog {
+  background-position: 0 0;
+  height: 34px;
+  width: 34px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-remove {
+  background-position: 0 -1335px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-search {
+  background-position: 0 -753px;
+  height: 24px;
+  width: 17px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-share {
+  background-position: 0 -988px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-subtract {
+  background-position: 0 -1557px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-time {
+  background-position: 0 -522px;
+  height: 17px;
+  width: 17px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tooltip {
+  background-position: 0 -402px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 19, ../src/partials/_sprites.scss */
+.icon {
+  overflow: hidden;
+  display: inline-block;
+  text-indent: -9999px;
+  color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* line 28, ../src/partials/_sprites.scss */
+p .icon {
+  vertical-align: middle;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Mixins Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Resets Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 12, ../src/partials/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 19, ../src/partials/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 25, ../src/partials/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 28, ../src/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../src/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../src/partials/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+/* line 36, ../src/partials/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 40, ../src/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Settings Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Grid Stylesheet (Foundation converted to Sass in Compass)
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 16, ../src/partials/_grid.scss */
+#▯NationalGeographic {
+  padding: 0 0px;
+  margin: 0;
+}
+
+/* line 22, ../src/partials/_grid.scss */
+.container, .block {
+  margin: 2rem;
+}
+/* line 27, ../src/partials/_grid.scss */
+.container.remove-top, .remove-top.block {
+  margin-top: 0;
+}
+/* line 28, ../src/partials/_grid.scss */
+.container.remove-bottom, .remove-bottom.block {
+  margin-bottom: 0;
+}
+/* line 29, ../src/partials/_grid.scss */
+.container.remove-left, .remove-left.block {
+  margin-left: 0;
+}
+/* line 30, ../src/partials/_grid.scss */
+.container.remove-right, .remove-right.block {
+  margin-right: 0;
+}
+/* line 31, ../src/partials/_grid.scss */
+.container.no-margin, .no-margin.block {
+  margin: 0;
+}
+
+/* line 35, ../src/partials/_grid.scss */
+.row {
+  width: 100%;
+  max-width: 990px;
+  min-width: 727px;
+  margin: 0 auto;
+}
+/* line 42, ../src/partials/_grid.scss */
+.row .row {
+  min-width: 0px;
+}
+
+/* line 45, ../src/partials/_grid.scss */
+.column, .columns {
+  margin-left: 0%;
+  float: left;
+  min-height: 1px;
+  min-height: .1rem;
+  position: relative;
+}
+/* line 52, ../src/partials/_grid.scss */
+.column:first-child, .columns:first-child {
+  margin-left: 0;
+}
+
+/* line 55, ../src/partials/_grid.scss */
+.row {
+  /* .one.columns, .two.columns, etc. - more stuff */
+  /* .offset-by-one, .offset-by-two, etc. */
+  /* .one.centered, .two.centered, etc. */
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .one.columns {
+  width: 4.348%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .two.columns {
+  width: 8.696%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .three.columns {
+  width: 13.043%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .four.columns {
+  width: 17.391%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .five.columns {
+  width: 21.739%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .six.columns {
+  width: 26.087%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .seven.columns {
+  width: 30.435%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .eight.columns {
+  width: 34.783%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .nine.columns {
+  width: 39.13%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .ten.columns {
+  width: 43.478%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .eleven.columns {
+  width: 47.826%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .twelve.columns {
+  width: 52.174%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .thirteen.columns {
+  width: 56.522%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .fourteen.columns {
+  width: 60.87%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .fifteen.columns {
+  width: 65.217%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .sixteen.columns {
+  width: 69.565%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .seventeen.columns {
+  width: 73.913%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .eighteen.columns {
+  width: 78.261%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .nineteen.columns {
+  width: 82.609%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .twenty.columns {
+  width: 86.957%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .twenty-one.columns {
+  width: 91.304%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .twenty-two.columns {
+  width: 95.652%;
+}
+/* line 59, ../src/partials/_grid.scss */
+.row .twenty-three.columns {
+  width: 100%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-one {
+  margin-left: 8.796%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-one:first-child {
+  margin-left: 8.796%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-two {
+  margin-left: 13.143%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-two:first-child {
+  margin-left: 13.143%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-three {
+  margin-left: 17.491%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-three:first-child {
+  margin-left: 17.491%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-four {
+  margin-left: 21.839%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-four:first-child {
+  margin-left: 21.839%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-five {
+  margin-left: 26.187%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-five:first-child {
+  margin-left: 26.187%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-six {
+  margin-left: 30.535%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-six:first-child {
+  margin-left: 30.535%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-seven {
+  margin-left: 34.883%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-seven:first-child {
+  margin-left: 34.883%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-eight {
+  margin-left: 39.23%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-eight:first-child {
+  margin-left: 39.23%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-nine {
+  margin-left: 43.578%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-nine:first-child {
+  margin-left: 43.578%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-ten {
+  margin-left: 47.926%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-ten:first-child {
+  margin-left: 47.926%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-eleven {
+  margin-left: 52.274%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-eleven:first-child {
+  margin-left: 52.274%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-twelve {
+  margin-left: 56.622%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-twelve:first-child {
+  margin-left: 56.622%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-thirteen {
+  margin-left: 60.97%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-thirteen:first-child {
+  margin-left: 60.97%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-fourteen {
+  margin-left: 65.317%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-fourteen:first-child {
+  margin-left: 65.317%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-fifteen {
+  margin-left: 69.665%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-fifteen:first-child {
+  margin-left: 69.665%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-sixteen {
+  margin-left: 74.013%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-sixteen:first-child {
+  margin-left: 74.013%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-seventeen {
+  margin-left: 78.361%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-seventeen:first-child {
+  margin-left: 78.361%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-eighteen {
+  margin-left: 82.709%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-eighteen:first-child {
+  margin-left: 82.709%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-nineteen {
+  margin-left: 87.057%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-nineteen:first-child {
+  margin-left: 87.057%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-twenty {
+  margin-left: 91.404%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-twenty:first-child {
+  margin-left: 91.404%;
+}
+/* line 71, ../src/partials/_grid.scss */
+.row .offset-by-twenty-one {
+  margin-left: 95.752%;
+}
+/* line 73, ../src/partials/_grid.scss */
+.row .offset-by-twenty-one:first-child {
+  margin-left: 95.752%;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .one.centered {
+  width: 4.348%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .two.centered {
+  width: 8.696%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .three.centered {
+  width: 13.043%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .four.centered {
+  width: 17.391%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .five.centered {
+  width: 21.739%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .six.centered {
+  width: 26.087%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .seven.centered {
+  width: 30.435%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .eight.centered {
+  width: 34.783%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .nine.centered {
+  width: 39.13%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .ten.centered {
+  width: 43.478%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .eleven.centered {
+  width: 47.826%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .twelve.centered {
+  width: 52.174%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .thirteen.centered {
+  width: 56.522%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .fourteen.centered {
+  width: 60.87%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .fifteen.centered {
+  width: 65.217%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .sixteen.centered {
+  width: 69.565%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .seventeen.centered {
+  width: 73.913%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .eighteen.centered {
+  width: 78.261%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .nineteen.centered {
+  width: 82.609%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .twenty.centered {
+  width: 86.957%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .twenty-one.centered {
+  width: 91.304%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .twenty-two.centered {
+  width: 95.652%;
+  margin: 0 auto;
+}
+/* line 83, ../src/partials/_grid.scss */
+.row .twenty-three.centered {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Push Ordering */
+/* line 92, ../src/partials/_grid.scss */
+.push-two {
+  left: 8.696%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-three {
+  left: 13.043%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-four {
+  left: 17.391%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-five {
+  left: 21.739%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-six {
+  left: 26.087%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-seven {
+  left: 30.435%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-eight {
+  left: 34.783%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-nine {
+  left: 39.13%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-ten {
+  left: 43.478%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-eleven {
+  left: 47.826%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-twelve {
+  left: 52.174%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-thirteen {
+  left: 56.522%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-fourteen {
+  left: 60.87%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-fifteen {
+  left: 65.217%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-sixteen {
+  left: 69.565%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-seventeen {
+  left: 73.913%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-eighteen {
+  left: 78.261%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-nineteen {
+  left: 82.609%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-twenty {
+  left: 86.957%;
+}
+
+/* line 92, ../src/partials/_grid.scss */
+.push-twenty-one {
+  left: 91.304%;
+}
+
+/* Pull Ordering */
+/* line 100, ../src/partials/_grid.scss */
+.pull-two {
+  right: 8.696%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-three {
+  right: 13.043%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-four {
+  right: 17.391%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-five {
+  right: 21.739%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-six {
+  right: 26.087%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-seven {
+  right: 30.435%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-eight {
+  right: 34.783%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-nine {
+  right: 39.13%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-ten {
+  right: 43.478%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-eleven {
+  right: 47.826%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-twelve {
+  right: 52.174%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-thirteen {
+  right: 56.522%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-fourteen {
+  right: 60.87%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-fifteen {
+  right: 65.217%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-sixteen {
+  right: 69.565%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-seventeen {
+  right: 73.913%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-eighteen {
+  right: 78.261%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-nineteen {
+  right: 82.609%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-twenty {
+  right: 86.957%;
+}
+
+/* line 100, ../src/partials/_grid.scss */
+.pull-twenty-one {
+  right: 91.304%;
+}
+
+/* line 108, ../src/partials/_grid.scss */
+img,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 109, ../src/partials/_grid.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 111, ../src/partials/_grid.scss */
+#map_canvas img, .map_canvas img {
+  max-width: none !important;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Structure Stylesheet (custom structure that Grid wont cover)
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Blocks Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 10, ../src/partials/_blocks.scss */
+.block {
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-width: .1em;
+  border-bottom-style: solid;
+}
+/* line 17, ../src/partials/_blocks.scss */
+.block .block-header {
+  padding-left: 10px;
+  padding-left: 1rem;
+  border-left-width: 8px;
+  border-left-width: .8rem;
+  border-left-style: solid;
+}
+/* line 24, ../src/partials/_blocks.scss */
+.block .block-content {
+  padding: 0 20px;
+  padding: 0 2rem;
+}
+
+/* line 30, ../src/partials/_blocks.scss */
+.columns .block:last-child {
+  border: none;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Font-Face Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Helper classesStylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 12, ../src/partials/_helpers.scss */
+.clearfix:before, .row:before, .clearfix:after, .row:after {
+  content: "";
+  display: table;
+}
+/* line 13, ../src/partials/_helpers.scss */
+.clearfix:after, .row:after {
+  clear: both;
+}
+
+/* line 16, ../src/partials/_helpers.scss */
+.clearfix, .row {
+  zoom: 1;
+}
+
+/* line 19, ../src/partials/_helpers.scss */
+.inline {
+  display: inline-block;
+}
+
+/* line 20, ../src/partials/_helpers.scss */
+.left {
+  float: left;
+}
+
+/* line 21, ../src/partials/_helpers.scss */
+.right {
+  float: right;
+}
+
+/* line 22, ../src/partials/_helpers.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 23, ../src/partials/_helpers.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 24, ../src/partials/_helpers.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 27, ../src/partials/_helpers.scss */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* line 28, ../src/partials/_helpers.scss */
+.visuallyhidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+}
+
+/* line 29, ../src/partials/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 36, ../src/partials/_helpers.scss */
+.red,
+.blue,
+.green,
+.yellow {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+
+/* line 37, ../src/partials/_helpers.scss */
+.red {
+  background: red;
+}
+
+/* line 37, ../src/partials/_helpers.scss */
+.blue {
+  background: blue;
+}
+
+/* line 37, ../src/partials/_helpers.scss */
+.green {
+  background: green;
+}
+
+/* line 37, ../src/partials/_helpers.scss */
+.yellow {
+  background: yellow;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Typography Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 11, ../src/partials/_typography.scss */
+body {
+  font-size: 10pxpx;
+  font-size: 1pxrem;
+  -webkit-font-smoothing: antialiased;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  color: #333333;
+  position: relative;
+}
+
+/* line 22, ../src/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.25;
+}
+/* line 27, ../src/partials/_typography.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+/* line 28, ../src/partials/_typography.scss */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  text-decoration: underline;
+}
+
+/* line 32, ../src/partials/_typography.scss */
+h1 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 24px;
+}
+
+/* line 37, ../src/partials/_typography.scss */
+h2 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 9px;
+}
+
+/* line 41, ../src/partials/_typography.scss */
+h3 {
+  font-size: 13px;
+  font-size: 1.3rem;
+  margin-bottom: 9px;
+}
+
+/* line 45, ../src/partials/_typography.scss */
+h4 {
+  font-size: 13px;
+  font-size: 1.3rem;
+  margin-bottom: 3px;
+}
+
+/* line 49, ../src/partials/_typography.scss */
+h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 3px;
+  font-weight: normal;
+}
+
+/* line 54, ../src/partials/_typography.scss */
+h6 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* line 58, ../src/partials/_typography.scss */
+.subheader {
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+/* line 63, ../src/partials/_typography.scss */
+p, li, dl {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+
+/* line 67, ../src/partials/_typography.scss */
+p {
+  margin: 0 0 18px;
+  margin: 0 0 1.8rem;
+}
+/* line 70, ../src/partials/_typography.scss */
+p img {
+  margin: 0 20px;
+  margin: 0 2rem;
+}
+/* line 73, ../src/partials/_typography.scss */
+p img.left {
+  margin-left: 0;
+}
+/* line 74, ../src/partials/_typography.scss */
+p img.right {
+  margin-right: 0;
+}
+
+/* line 77, ../src/partials/_typography.scss */
+em, i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+/* line 81, ../src/partials/_typography.scss */
+strong, b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/* line 85, ../src/partials/_typography.scss */
+small {
+  font-size: 60%;
+  line-height: inherit;
+}
+
+/* line 89, ../src/partials/_typography.scss */
+dfn {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 93, ../src/partials/_typography.scss */
+sup, sub {
+  line-height: 0;
+}
+
+/* line 96, ../src/partials/_typography.scss */
+abbr, acronym {
+  text-transform: uppercase;
+  font-size: 90%;
+  cursor: help;
+}
+
+/* line 101, ../src/partials/_typography.scss */
+abbr {
+  text-transform: none;
+}
+
+/* line 104, ../src/partials/_typography.scss */
+address {
+  margin: 0 0 15px;
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+/* line 109, ../src/partials/_typography.scss */
+blockquote {
+  line-height: 20px;
+  margin: 0 0 18px;
+  padding: 9px 20px 0 19px;
+}
+/* line 113, ../src/partials/_typography.scss */
+blockquote p {
+  line-height: 20px;
+}
+/* line 115, ../src/partials/_typography.scss */
+blockquote cite {
+  display: block;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+/* line 118, ../src/partials/_typography.scss */
+blockquote cite:before {
+  content: "/2014 /0020";
+}
+
+/* line 125, ../src/partials/_typography.scss */
+pre {
+  margin: 15px 0;
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 130, ../src/partials/_typography.scss */
+hr {
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 12px 0 18px;
+  height: 0;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Links Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 9, ../src/partials/_links.scss */
+a {
+  text-decoration: none;
+  line-height: inherit;
+}
+/* line 12, ../src/partials/_links.scss */
+a:hover {
+  text-decoration: underline;
+}
+/* line 13, ../src/partials/_links.scss */
+a:focus {
+  outline: none;
+}
+
+/* line 16, ../src/partials/_links.scss */
+p a, p a:visited {
+  line-height: inherit;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Tables Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 9, ../src/partials/_tables.scss */
+table {
+  margin: 20px 0;
+  margin: 2rem 0;
+  border: none;
+  font-size: 11px;
+  font-size: 1.1rem;
+  text-align: left;
+  vertical-align: bottom;
+}
+/* line 14, ../src/partials/_tables.scss */
+table p {
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+/* line 18, ../src/partials/_tables.scss */
+table thead, table tfoot {
+  font-weight: bold;
+}
+/* line 22, ../src/partials/_tables.scss */
+table thead tr th, table tfoot tr th {
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 20px 5px 5px 5px;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+}
+/* line 32, ../src/partials/_tables.scss */
+table tbody tr td {
+  padding: 5px;
+  padding: .5rem;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Lists Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 9, ../src/partials/_lists.scss */
+ul, ol, dl {
+  margin: 0 0 20px 20px;
+  margin: 0 0 2rem 2rem;
+}
+
+/* line 14, ../src/partials/_lists.scss */
+ul {
+  list-style: disc outside;
+}
+/* line 16, ../src/partials/_lists.scss */
+ul.square {
+  list-style: square outside;
+}
+/* line 17, ../src/partials/_lists.scss */
+ul.circle {
+  list-style: circle outside;
+}
+/* line 18, ../src/partials/_lists.scss */
+ul.disc {
+  list-style: disc outside;
+}
+
+/* line 20, ../src/partials/_lists.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 24, ../src/partials/_lists.scss */
+ol,
+ul.square,
+ul.circle,
+ul.disc {
+  margin-left: 30px;
+}
+
+/* line 25, ../src/partials/_lists.scss */
+li {
+  margin: 0;
+}
+
+/* line 27, ../src/partials/_lists.scss */
+dl {
+  margin: 0 0 15px 0;
+  margin: 0 0 1.5rem 0;
+}
+/* line 30, ../src/partials/_lists.scss */
+dl dt {
+  font-weight: bold;
+}
+
+/* line 34, ../src/partials/_lists.scss */
+dd {
+  margin-left: 15px;
+  margin-left: 15rem;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Forms Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Navigation Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 10, ../src/partials/_navigation.scss */
+#navigation ul {
+  list-style: none outside;
+  margin: 0;
+}
+
+/* line 16, ../src/partials/_navigation.scss */
+.navigation ul {
+  display: table-row;
+  padding: 0;
+  margin: 0;
+  list-style: none outside;
+}
+/* line 25, ../src/partials/_navigation.scss */
+.navigation ul li {
+  float: left;
+}
+/* line 27, ../src/partials/_navigation.scss */
+.navigation ul li a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/* line 32, ../src/partials/_navigation.scss */
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Menu Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/* line 11, ../src/partials/_menu.scss */
+#toolbar {
+  text-align: right;
+}
+
+/* line 13, ../src/partials/_menu.scss */
+#share {
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+}
+/* line 16, ../src/partials/_menu.scss */
+#share a {
+  display: inline-block;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 14px;
+  line-height: 1.4rem;
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-left: 1rem;
+}
+/* line 24, ../src/partials/_menu.scss */
+#share a:hover {
+  text-decoration: underline;
+}
+
+/* line 28, ../src/partials/_menu.scss */
+#change-page-view {
+  overflow: hidden;
+  float: right;
+}
+/* line 31, ../src/partials/_menu.scss */
+#change-page-view p {
+  margin: 0 0 5px;
+  margin: 0 0 .5rem;
+}
+/* line 35, ../src/partials/_menu.scss */
+#change-page-view a {
+  overflow: hidden;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+}
+/* line 42, ../src/partials/_menu.scss */
+#change-page-view a span, #change-page-view a abbr {
+  display: inline-block;
+  height: 16px;
+  height: 1.6rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+/* line 51, ../src/partials/_menu.scss */
+#change-page-view a span {
+  text-indent: 5px;
+  text-indent: .5rem;
+  vertical-align: middle;
+}
+/* line 55, ../src/partials/_menu.scss */
+#change-page-view a span:hover {
+  text-decoration: underline;
+}
+/* line 60, ../src/partials/_menu.scss */
+#change-page-view a abbr {
+  width: 16px;
+  width: 1.6rem;
+  text-align: center;
+}
+
+/*-----------------------------------------------------------------------------
+[client]            Print Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+@media print {
+  /* line 34, ../src/media_queries/print/_print.scss */
+  nav,
+  form,
+  #article-title span,
+  #toolbar,
+  #breadcrumbs,
+  #funder-sponsor,
+  #related-content,
+  #ng-interaction-quicklinks,
+  #ad-section-bottom,
+  #ng-home-quicklinks,
+  #tabhead-comments,
+  #tabbody-comments,
+  .ad-section,
+  .section-logo,
+  .activity-filter-nav,
+  .program-logos,
+  .metadata,
+  .tabs-list,
+  .ui-icon,
+  .paginate-navigation,
+  .paginate-info {
+    display: none !important;
+  }
+
+  /* line 39, ../src/media_queries/print/_print.scss */
+  .tabbody,
+  .ui-accordion-header,
+  .ui-accordion-content {
+    display: block !important;
+    clear: both !important;
+  }
+
+  /* line 42, ../src/media_queries/print/_print.scss */
+  * {
+    color: black !important;
+    position: static !important;
+    box-shadow: none !important;
+  }
+
+  /* line 49, ../src/media_queries/print/_print.scss */
+  #header {
+    min-height: 50px !important;
+    min-height: 5rem !important;
+  }
+  /* line 52, ../src/media_queries/print/_print.scss */
+  #header .container, #header .block {
+    margin: 20px 0 !important;
+    margin: 2rem 0 !important;
+  }
+  /* line 55, ../src/media_queries/print/_print.scss */
+  #header .container .logo img, #header .block .logo img {
+    height: 50px;
+    height: 5rem;
+  }
+
+  /* line 62, ../src/media_queries/print/_print.scss */
+  #article-header .container, #article-header .block {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* line 67, ../src/media_queries/print/_print.scss */
+  #article-header #article-title .container, #article-header #article-title .block {
+    width: 0;
+    border-right: 90px solid #e6e6e6;
+    border-right: 9rem solid #e6e6e6;
+  }
+
+  /* line 74, ../src/media_queries/print/_print.scss */
+  #main-content {
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+  /* line 77, ../src/media_queries/print/_print.scss */
+  #main-content * {
+    width: 100% !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  /* line 82, ../src/media_queries/print/_print.scss */
+  #main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 {
+    clear: both !important;
+  }
+  /* line 83, ../src/media_queries/print/_print.scss */
+  #main-content img {
+    width: auto !important;
+    margin-bottom: 20px !important;
+    margin-bottom: 2rem !important;
+  }
+  /* line 90, ../src/media_queries/print/_print.scss */
+  #main-content table * {
+    width: auto !important;
+    height: 0 !important;
+    line-height: 0 !important;
+    background: none !important;
+    padding: 0 5px !important;
+    padding: 0 .5rem !important;
+    vertical-align: middle !important;
+  }
+  /* line 102, ../src/media_queries/print/_print.scss */
+  #main-content table th {
+    color: #4f98b4 !important;
+    border: 20px solid #cfe7ed;
+    border: 2rem solid #cfe7ed;
+  }
+  /* line 109, ../src/media_queries/print/_print.scss */
+  #main-content table tbody tr:nth-child(odd) {
+    border-bottom: 40px solid #ffffff !important;
+    border-bottom: 4rem solid #ffffff !important;
+  }
+  /* line 112, ../src/media_queries/print/_print.scss */
+  #main-content table tbody tr:nth-child(odd) td {
+    top: 18px !important;
+    top: 1.8rem !important;
+  }
+  /* line 117, ../src/media_queries/print/_print.scss */
+  #main-content table tbody tr:nth-child(even) {
+    border-bottom: 40px solid #f0f0f6 !important;
+    border-bottom: 4rem solid #f0f0f6 !important;
+  }
+  /* line 120, ../src/media_queries/print/_print.scss */
+  #main-content table tbody tr:nth-child(even) td {
+    top: 18px !important;
+    top: 1.8rem !important;
+  }
+  /* line 125, ../src/media_queries/print/_print.scss */
+  #main-content table tbody tr td {
+    position: relative !important;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 129, ../src/media_queries/print/_print.scss */
+  #main-content table tbody tr td p {
+    display: inline;
+  }
+
+  /* line 135, ../src/media_queries/print/_print.scss */
+  #main-banner {
+    padding-bottom: 20px !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Push Ordering */
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-two {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-three {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-four {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-five {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-six {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-seven {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-eight {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-nine {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-ten {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-eleven {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-twelve {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-thirteen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-fourteen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-fifteen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-sixteen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-seventeen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-eighteen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-nineteen {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-twenty {
+    left: 0;
+  }
+
+  /* line 145, ../src/media_queries/print/_print.scss */
+  .push-twenty-one {
+    left: 0;
+  }
+
+  /* Pull Ordering */
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-two {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-three {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-four {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-five {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-six {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-seven {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-eight {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-nine {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-ten {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-eleven {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-twelve {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-thirteen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-fourteen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-fifteen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-sixteen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-seventeen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-eighteen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-nineteen {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-twenty {
+    right: 0;
+  }
+
+  /* line 148, ../src/media_queries/print/_print.scss */
+  .pull-twenty-one {
+    right: 0;
+  }
+
+  /* line 151, ../src/media_queries/print/_print.scss */
+  .block {
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+  /* line 156, ../src/media_queries/print/_print.scss */
+  .block .block-content {
+    padding: 20px 0 0 0 !important;
+    padding: 2rem 0 0 0 !important;
+  }
+
+  /* line 163, ../src/media_queries/print/_print.scss */
+  .tabs .content .content {
+    border: none !important;
+  }
+
+  /* line 165, ../src/media_queries/print/_print.scss */
+  .tabhead {
+    margin: 0;
+    height: 0;
+    line-height: 0rem;
+    border: 20px solid #5eb1c9 !important;
+    border: 2rem solid #5eb1c9 !important;
+  }
+
+  /* line 171, ../src/media_queries/print/_print.scss */
+  .tabbody {
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  /* line 179, ../src/media_queries/print/_print.scss */
+  .ui-accordion .ui-accordion-header,
+  .ui-accordion .ui-accordion-content {
+    background: none !important;
+    border: none !important;
+  }
+  /* line 183, ../src/media_queries/print/_print.scss */
+  .ui-accordion .ui-accordion-header {
+    border: none !important;
+  }
+  /* line 186, ../src/media_queries/print/_print.scss */
+  .ui-accordion .ui-accordion-content {
+    overflow: hidden;
+    border: none !important;
+  }
+
+  /* line 197, ../src/media_queries/print/_print.scss */
+  .paginate {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+  }
+  /* line 203, ../src/media_queries/print/_print.scss */
+  .paginate h3 {
+    margin: 0 !important;
+  }
+  /* line 205, ../src/media_queries/print/_print.scss */
+  .paginate .paginate-content section {
+    display: block !important;
+  }
+
+  /* line 210, ../src/media_queries/print/_print.scss */
+  .activity-0, .activity-1, .activity-2, .activity-3, .activity-4, .activity-5, .activity-6, .activity-7, .activity-8, .activity-9, .activity-10 {
+    border-bottom: 1px solid #cccccc !important;
+    border-bottom: .1rem solid #cccccc !important;
+    margin-bottom: 20px !important;
+    margin-bottom: 2rem !important;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+@media only screen and (max-width: 767px) {
+  /* line 15, ../src/media_queries/_foundation-mobile.scss */
+  h1 {
+    font-size: 32px;
+    font-size: 3.2rem;
+    line-height: 1.3;
+  }
+
+  /* line 18, ../src/media_queries/_foundation-mobile.scss */
+  h2 {
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 1.3;
+  }
+
+  /* line 21, ../src/media_queries/_foundation-mobile.scss */
+  h3 {
+    font-size: 21px;
+    font-size: 2.1rem;
+    line-height: 1.3;
+  }
+
+  /* line 24, ../src/media_queries/_foundation-mobile.scss */
+  h4 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  /* line 27, ../src/media_queries/_foundation-mobile.scss */
+  h5 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  /* line 30, ../src/media_queries/_foundation-mobile.scss */
+  h6 {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  /* line 33, ../src/media_queries/_foundation-mobile.scss */
+  body, p {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 38, ../src/media_queries/_foundation-mobile.scss */
+  body {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 47, ../src/media_queries/_foundation-mobile.scss */
+  .container, .block {
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 51, ../src/media_queries/_foundation-mobile.scss */
+  .row {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 56, ../src/media_queries/_foundation-mobile.scss */
+  .row .row .column, .row .row .columns {
+    padding: 0;
+  }
+
+  /* line 58, ../src/media_queries/_foundation-mobile.scss */
+  .column, .columns {
+    width: auto !important;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 63, ../src/media_queries/_foundation-mobile.scss */
+  .column:last-child, .columns:last-child {
+    margin-right: 0;
+  }
+
+  /* line 65, ../src/media_queries/_foundation-mobile.scss */
+  .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten, .offset-by-eleven, .centered {
+    margin-left: 0% !important;
+  }
+
+  /* line 67, ../src/media_queries/_foundation-mobile.scss */
+  .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten {
+    left: none;
+  }
+
+  /* line 69, ../src/media_queries/_foundation-mobile.scss */
+  .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten {
+    right: none;
+  }
+}
+/* line 75, ../src/media_queries/_foundation-mobile.scss */
+.row .phone-one.column:first-child, .row .phone-two.column:first-child, .row .phone-three.column:first-child, .row .phone-four.column:first-child, .row .phone-one.columns:first-child, .row .phone-two.columns:first-child, .row .phone-three.columns:first-child, .row .phone-four.columns:first-child {
+  margin-left: 0;
+}
+/* line 77, ../src/media_queries/_foundation-mobile.scss */
+.row .phone-one.column, .row .phone-two.column, .row .phone-three.column, .row .phone-four.column, .row .phone-one.columns, .row .phone-two.columns, .row .phone-three.columns, .row .phone-four.columns {
+  margin-left: 4.4%;
+  float: left;
+  min-height: 1px;
+  position: relative;
+  padding: 0;
+}
+/* line 83, ../src/media_queries/_foundation-mobile.scss */
+.row .phone-one.columns {
+  width: 21.68% !important;
+}
+/* line 85, ../src/media_queries/_foundation-mobile.scss */
+.row .phone-two.columns {
+  width: 47.8% !important;
+}
+/* line 87, ../src/media_queries/_foundation-mobile.scss */
+.row .phone-three.columns {
+  width: 73.9% !important;
+}
+/* line 89, ../src/media_queries/_foundation-mobile.scss */
+.row .phone-four.columns {
+  width: 100% !important;
+}
+/* line 91, ../src/media_queries/_foundation-mobile.scss */
+.row .columns.push-one-phone {
+  left: 26.08%;
+}
+/* line 93, ../src/media_queries/_foundation-mobile.scss */
+.row .columns.push-two-phone {
+  left: 52.2%;
+}
+/* line 95, ../src/media_queries/_foundation-mobile.scss */
+.row .columns.push-three-phone {
+  left: 78.3%;
+}
+/* line 97, ../src/media_queries/_foundation-mobile.scss */
+.row .columns.pull-one-phone {
+  right: 26.08%;
+}
+/* line 99, ../src/media_queries/_foundation-mobile.scss */
+.row .columns.pull-two-phone {
+  right: 52.2%;
+}
+/* line 101, ../src/media_queries/_foundation-mobile.scss */
+.row .columns.pull-three-phone {
+  right: 78.3%;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 107, ../src/media_queries/_foundation-mobile.scss */
+  .block-grid.mobile {
+    margin-left: 0%;
+  }
+  /* line 109, ../src/media_queries/_foundation-mobile.scss */
+  .block-grid.mobile > li {
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+/* line 116, ../src/media_queries/_foundation-mobile.scss */
+.show-on-phones {
+  display: none !important;
+}
+
+/* line 119, ../src/media_queries/_foundation-mobile.scss */
+.show-on-tablets {
+  display: none !important;
+}
+
+/* line 122, ../src/media_queries/_foundation-mobile.scss */
+.show-on-desktops {
+  display: block !important;
+}
+
+/* line 125, ../src/media_queries/_foundation-mobile.scss */
+.hide-on-phones {
+  display: block !important;
+}
+
+/* line 128, ../src/media_queries/_foundation-mobile.scss */
+.hide-on-tablets {
+  display: block !important;
+}
+
+/* line 131, ../src/media_queries/_foundation-mobile.scss */
+.hide-on-desktops {
+  display: none !important;
+}
+
+@media only screen and (max-device-width: 800), only screen and (device-width: 1024px) and (device-width: 600), only screen and (width: 1280) and (orientation: landscape), only screen and (device-width: 800) {
+  /* line 135, ../src/media_queries/_foundation-mobile.scss */
+  .hide-on-phones {
+    display: block !important;
+  }
+
+  /* line 137, ../src/media_queries/_foundation-mobile.scss */
+  .hide-on-tablets {
+    display: none !important;
+  }
+
+  /* line 139, ../src/media_queries/_foundation-mobile.scss */
+  .hide-on-desktops {
+    display: block !important;
+  }
+
+  /* line 141, ../src/media_queries/_foundation-mobile.scss */
+  .show-on-phones {
+    display: none !important;
+  }
+
+  /* line 143, ../src/media_queries/_foundation-mobile.scss */
+  .show-on-tablets {
+    display: block !important;
+  }
+
+  /* line 145, ../src/media_queries/_foundation-mobile.scss */
+  .show-on-desktops {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+  /* line 153, ../src/media_queries/_foundation-mobile.scss */
+  .touch .hide-on-phones {
+    display: block !important;
+  }
+  /* line 155, ../src/media_queries/_foundation-mobile.scss */
+  .touch .hide-on-tablets {
+    display: none !important;
+  }
+  /* line 157, ../src/media_queries/_foundation-mobile.scss */
+  .touch .hide-on-desktops {
+    display: block !important;
+  }
+  /* line 159, ../src/media_queries/_foundation-mobile.scss */
+  .touch .show-on-phones {
+    display: none !important;
+  }
+  /* line 161, ../src/media_queries/_foundation-mobile.scss */
+  .touch .show-on-tablets {
+    display: block !important;
+  }
+  /* line 163, ../src/media_queries/_foundation-mobile.scss */
+  .touch .show-on-desktops {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 167, ../src/media_queries/_foundation-mobile.scss */
+  .hide-on-phones {
+    display: none !important;
+  }
+
+  /* line 169, ../src/media_queries/_foundation-mobile.scss */
+  .hide-on-tablets {
+    display: block !important;
+  }
+
+  /* line 171, ../src/media_queries/_foundation-mobile.scss */
+  .hide-on-desktops {
+    display: block !important;
+  }
+
+  /* line 173, ../src/media_queries/_foundation-mobile.scss */
+  .show-on-phones {
+    display: block !important;
+  }
+
+  /* line 175, ../src/media_queries/_foundation-mobile.scss */
+  .show-on-tablets {
+    display: none !important;
+  }
+
+  /* line 177, ../src/media_queries/_foundation-mobile.scss */
+  .show-on-desktops {
+    display: none !important;
+  }
+}
+/* line 188, ../src/media_queries/_foundation-mobile.scss */
+table.show-on-desktops {
+  display: table !important;
+}
+/* line 190, ../src/media_queries/_foundation-mobile.scss */
+table.hide-on-phones {
+  display: table !important;
+}
+/* line 192, ../src/media_queries/_foundation-mobile.scss */
+table.hide-on-tablets {
+  display: table !important;
+}
+
+@media only screen and (max-device-width: 800), only screen and (device-width: 1024px) and (device-height: 600), only screen and (width: 1280) and (orientation: landscape), only screen and (device-width: 800) {
+  /* line 197, ../src/media_queries/_foundation-mobile.scss */
+  table.hide-on-phones {
+    display: block !important;
+  }
+  /* line 199, ../src/media_queries/_foundation-mobile.scss */
+  table.hide-on-desktops {
+    display: block !important;
+  }
+  /* line 201, ../src/media_queries/_foundation-mobile.scss */
+  table.show-on-tablets {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 206, ../src/media_queries/_foundation-mobile.scss */
+  table.hide-on-tablets {
+    display: block !important;
+  }
+  /* line 208, ../src/media_queries/_foundation-mobile.scss */
+  table.hide-on-desktops {
+    display: block !important;
+  }
+  /* line 210, ../src/media_queries/_foundation-mobile.scss */
+  table.show-on-phones {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 217, ../src/media_queries/_foundation-mobile.scss */
+  input.input-text, input.input-text.oversize, textarea, form.nice input.input-text, form.nice input.input-text.oversize, form.nice textarea {
+    display: block;
+    width: 96%;
+    padding: 6px 2% 4px;
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+
+  /* line 222, ../src/media_queries/_foundation-mobile.scss */
+  form.nice input.input-text, form.nice input.input-text.oversize, form.nice textarea {
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+  }
+
+  /* line 224, ../src/media_queries/_foundation-mobile.scss */
+  form.nice small.error {
+    padding: 6px 2%;
+    display: block;
+  }
+
+  /* line 227, ../src/media_queries/_foundation-mobile.scss */
+  form.nice .small + .error, form.nice .medium + .error, form.nice .large + .error {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 234, ../src/media_queries/_foundation-mobile.scss */
+  .button {
+    display: block;
+  }
+
+  /* line 236, ../src/media_queries/_foundation-mobile.scss */
+  button.button {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 245, ../src/media_queries/_foundation-mobile.scss */
+  dl.tabs.mobile, dl.nice.tabs.mobile {
+    width: auto;
+    margin: 20px -20px 40px;
+    height: auto;
+  }
+
+  /* line 249, ../src/media_queries/_foundation-mobile.scss */
+  dl.tabs.mobile dt, dl.tabs.mobile dd, dl.nice.tabs.mobile dt, dl.nice.tabs.mobile dd {
+    float: none;
+    height: auto;
+  }
+
+  /* line 252, ../src/media_queries/_foundation-mobile.scss */
+  dl.tabs.mobile dd a {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 18px 20px;
+    line-height: 1;
+    border: solid 0 #cccccc;
+    border-width: 1px 0 0;
+    margin: 0;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 15px;
+    font-size: 1.5rem;
+  }
+
+  /* line 264, ../src/media_queries/_foundation-mobile.scss */
+  dl.tabs.mobile dd a.active {
+    height: auto;
+    margin: 0;
+    border-width: 1px 0 0;
+  }
+
+  /* line 268, ../src/media_queries/_foundation-mobile.scss */
+  .nice.tabs.mobile {
+    border-bottom: solid 1px #cccccc;
+    height: auto;
+  }
+
+  /* line 271, ../src/media_queries/_foundation-mobile.scss */
+  .nice.tabs.mobile dd a {
+    padding: 18px 20px;
+    border: none;
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px #cccccc;
+    background: white;
+  }
+  /* line 278, ../src/media_queries/_foundation-mobile.scss */
+  .nice.tabs.mobile dd a.active {
+    border: none;
+    background: #00a6fc;
+    color: white;
+    margin: 0;
+    position: static;
+    top: 0;
+    height: auto;
+  }
+
+  /* line 286, ../src/media_queries/_foundation-mobile.scss */
+  .nice.tabs.mobile dd:first-child a.active {
+    margin-bottom: 0;
+  }
+
+  /* line 288, ../src/media_queries/_foundation-mobile.scss */
+  dl.contained.mobile, dl.nice.contained.mobile {
+    margin-bottom: 0;
+  }
+
+  /* line 290, ../src/media_queries/_foundation-mobile.scss */
+  dl.contained.tabs.mobile dd a {
+    padding: 18px 20px;
+  }
+
+  /* line 292, ../src/media_queries/_foundation-mobile.scss */
+  dl.nice.contained.tabs.mobile dd a {
+    padding: 18px 20px;
+  }
+
+  /* line 295, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar {
+    height: auto;
+  }
+  /* line 297, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li {
+    float: none;
+    display: block;
+    border-right: none;
+  }
+  /* line 301, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li > a.main {
+    text-align: left;
+    border-top: 1px solid #dddddd;
+    border-right: none;
+  }
+  /* line 307, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li.has-flyout > a.main:after {
+    display: none;
+  }
+  /* line 309, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li.has-flyout a.flyout-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 22px;
+    z-index: 2;
+    border-left: 1px dashed #eeeeee;
+    display: block;
+  }
+  /* line 317, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li.has-flyout a.flyout-toggle span {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 4px solid;
+    border-color: #2a85e8 transparent transparent transparent;
+    display: block;
+  }
+  /* line 325, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li.has-flyout a.flyout-toggle:hover span {
+    border-top-color: #141414;
+  }
+  /* line 328, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li:first-child > a.main {
+    border-top: none;
+  }
+  /* line 331, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li:hover > a.main {
+    font-weight: bold;
+  }
+  /* line 333, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li:hover ul {
+    position: relative;
+  }
+
+  /* line 335, ../src/media_queries/_foundation-mobile.scss */
+  .flyout {
+    position: relative;
+    width: auto;
+    top: auto;
+    margin-right: -2px;
+    border-width: 1px 1px 0px 1px;
+  }
+  /* line 341, ../src/media_queries/_foundation-mobile.scss */
+  .flyout.right {
+    float: none;
+    right: auto;
+    left: -1px;
+  }
+  /* line 345, ../src/media_queries/_foundation-mobile.scss */
+  .flyout.small, .flyout.large {
+    width: auto;
+  }
+  /* line 347, ../src/media_queries/_foundation-mobile.scss */
+  .flyout p.last-child {
+    margin-bottom: 18px;
+  }
+
+  /* line 349, ../src/media_queries/_foundation-mobile.scss */
+  .nav-bar > li:hover .flyout {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  /* line 356, ../src/media_queries/_foundation-mobile.scss */
+  .flex-video {
+    padding-top: 0;
+  }
+}
+/*-----------------------------------------------------------------------------
+[client]            Screen Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Screen 960 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Screen 720 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Screen 640 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Screen 480 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Screen 320 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Mobile Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Mobile 960 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Mobile 720 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Mobile 640 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Mobile 480 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            Mobile 320 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            IE6 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            IE 7 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            IE8 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+[client]            IE9 Stylesheet
+
+author:             Michael Guild
+email:              michaelguild13@gmail.com
+website:            http://michaelguild13.wordpress.com/
+-----------------------------------------------------------------------------*/

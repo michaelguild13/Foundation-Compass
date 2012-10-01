@@ -1,4 +1,5 @@
 # Require any additional compass plugins here.
+## convert-number-to-word is required for the grid to get compiled
 require 'convert-number-to-word'
 
 # Set this to the root of your project when deployed:
